@@ -32,8 +32,8 @@ Stage I  ──►  Stage II  ──►  Stage III
 
 When U-238 absorbs a fast neutron, it does **not** fission — instead it undergoes a two-step beta decay to become Pu-239:
 
-![Transmutation Chain](<img width="1900" height="557" alt="chain" src="https://github.com/user-attachments/assets/f422891b-24a3-4a32-a5a8-03146722024c" />
-)
+<img width="1900" height="557" alt="chain" src="https://github.com/user-attachments/assets/f38258cf-050f-4bc2-835c-83dc2cec3bf8" />
+
 
 ```
 U-238  +  n  →  U-239  →  Np-239  →  Pu-239
@@ -134,8 +134,8 @@ A shorter doubling time means India can build **more FBRs faster** — using bre
 
 Solved using `scipy.integrate.solve_ivp` with the **Radau** stiff ODE solver:
 
-![Bateman ODE Solution](<img width="2020" height="738" alt="bateman" src="https://github.com/user-attachments/assets/f731cad1-6c2b-49e0-bdfb-9f5720219529" />
-)
+<img width="2020" height="738" alt="bateman" src="https://github.com/user-attachments/assets/51b52e7a-2d6c-4336-a807-affa0deb2592" />
+
 
 **What to observe:**
 - U-238 depletes slowly (long half-life, low capture rate)
@@ -147,8 +147,8 @@ Solved using `scipy.integrate.solve_ivp` with the **Radau** stiff ODE solver:
 
 How the Breeding Ratio changes with neutron flux at 180 days:
 
-![Flux Sensitivity](<img width="1261" height="696" alt="flux_sensitivity" src="https://github.com/user-attachments/assets/f869c312-941d-4b70-be3a-3841030e2e29" />
-)
+<img width="1261" height="696" alt="flux_sensitivity" src="https://github.com/user-attachments/assets/426ce59b-7b01-4d5e-8345-6caa2eeb463c" />
+
 
 **Key insight:** BR peaks in the intermediate flux range. At very high flux, Pu-239 is fissioned faster than it accumulates, and BR drops. The **green shaded zone** is where true breeding occurs (BR > 1).
 
@@ -158,8 +158,8 @@ How the Breeding Ratio changes with neutron flux at 180 days:
 
 How long until the Pu-239 stock doubles at PFBR operating conditions (φ = 3×10¹⁵):
 
-![Doubling Time](<img width="1261" height="699" alt="doubling_time" src="https://github.com/user-attachments/assets/4dccad34-b63d-4d23-9470-20512dbd60c5" />
-)
+<img width="1261" height="699" alt="doubling_time" src="https://github.com/user-attachments/assets/a1010b3d-05b3-43e2-bcf8-5e70a870365d" />
+
 
 This is strategically important — each doubling provides enough plutonium to **fuel a new reactor**, enabling India to expand its nuclear fleet using domestically bred fuel rather than imported uranium.
 
